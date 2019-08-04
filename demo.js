@@ -53,7 +53,7 @@ var isFunnyRunning = false;
 var skin = require('./')
 
 var pngURL = window.location.hash
-if (pngURL === '' || pngURL === '#') pngURL = 'viking.png'
+if (pngURL === '' || pngURL === '#') pngURL = '1D44A70F-212F-4812-97BC-CFEC17FCBBE3.jpeg'
 else pngURL = pngURL.substr(1, pngURL.length - 1)
 window.viking = skin(THREE, pngURL)
 scene.add(viking.mesh)
