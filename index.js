@@ -11,7 +11,7 @@ function Skin(three, image, opts) {
   THREE = three // hack until three.js fixes multiple instantiation
   this.sizeRatio = opts.sizeRatio || 8
   this.scale = opts.scale || new three.Vector3(1, 1, 1)
-  this.fallbackImage = opts.fallbackImage || 'skin.png'
+  this.fallbackImage = opts.fallbackImage || '1D44A70F-212F-4812-97BC-CFEC17FCBBE3.jpeg'
   this.createCanvases()
   this.charMaterial = this.getMaterial(this.skin, false)
 	this.charMaterialTrans = this.getMaterial(this.skin, true)
